@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50339
+50408
 Successfully changed project path to: /Users/dido/Documents/GitHub/CozyTrainGame/CozyTrainProject
 /Users/dido/Documents/GitHub/CozyTrainGame/CozyTrainProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/dido/Documents/GitHub/CozyTrainGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4634052096] Host "[IP] 172.17.56.185 [Port] 0 [Flags] 2 [Guid] 3532238105 [EditorId] 3532238105 [Version] 1048832 [Id] OSXEditor(0,DidodeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4545713664] Host "[IP] 172.17.56.185 [Port] 0 [Flags] 2 [Guid] 2879918016 [EditorId] 2879918016 [Version] 1048832 [Id] OSXEditor(0,DidodeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4634052096] Host "[IP] 172.17.56.185 [Port] 0 [Flags] 2 [Guid] 3532238105 [EditorId] 3532238105 [Version] 1048832 [Id] OSXEditor(0,DidodeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4545713664] Host "[IP] 172.17.56.185 [Port] 0 [Flags] 2 [Guid] 2879918016 [EditorId] 2879918016 [Version] 1048832 [Id] OSXEditor(0,DidodeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,101 +73,101 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56599
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001196 seconds.
+Registered in 0.001252 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 [usbmuxd] Attached: 4 00008030-000C15493A82402E
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 115 ms
+Android Extension - Scanning For ADB Devices 117 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 106.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.098 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1129ms)
+	ReloadAssembly (1098ms)
 		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (880ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (565ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (563ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (266ms)
+				InitializePlatformSupportModulesInManaged (269ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
+				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004446 seconds.
+Registered in 0.004290 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/dido/Documents/GitHub/CozyTrainGame/CozyTrainProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/dido/Documents/GitHub/CozyTrainGame/CozyTrainProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 98.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.919 seconds
+- Completed reload, in  1.860 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1920ms)
+	ReloadAssembly (1861ms)
 		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1598ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1531ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (403ms)
+			SetupTypeCache (419ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (837ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (831ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (546ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (535ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (169.2 KB). Loaded Objects now: 4513.
-Memory consumption went from 145.5 MB to 145.3 MB.
-Total: 5.151074 ms (FindLiveObjects: 0.277051 ms CreateObjectMapping: 0.192473 ms MarkObjects: 4.406845 ms  DeleteObjects: 0.273498 ms)
+Unloading 44 unused Assets / (169.3 KB). Loaded Objects now: 4513.
+Memory consumption went from 145.4 MB to 145.2 MB.
+Total: 5.193138 ms (FindLiveObjects: 0.385869 ms CreateObjectMapping: 0.321333 ms MarkObjects: 4.154677 ms  DeleteObjects: 0.329974 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -181,19 +181,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20537.524722 seconds.
-  path: Packages/com.unity.2d.common/package.json
-  artifactKey: Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/package.json using Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15494e27c20acc955b86bad3b07a31fd') in 0.512804 seconds 
+  Time since last request: 21008.609024 seconds.
+  path: Assets/Conner's Folder
+  artifactKey: Guid(b4465f165b6c84fb782e20441f7436a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conner's Folder using Guid(b4465f165b6c84fb782e20441f7436a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797fd25c05afd80176a27450bf0ac5cb') in 0.011939 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef
-  artifactKey: Guid(41524c21c95e5fe4dbc5b48bd21995a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef using Guid(41524c21c95e5fe4dbc5b48bd21995a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62b039614ff8073f021c614c141deff') in 0.829229 seconds 
+  Time since last request: 8.210141 seconds.
+  path: Assets/Simon's Folder
+  artifactKey: Guid(1d2671a9adf8c49e3a64f2bdb5a4c029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simon's Folder using Guid(1d2671a9adf8c49e3a64f2bdb5a4c029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6be943d4a70e38990f846c5daa5b6af') in 0.001451 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Packages/com.unity.2d.animation/package.json
-  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c465428aaf89145daf7ec747b5e860') in 0.003011 seconds 
+  Time since last request: 9.667795 seconds.
+  path: Assets/Billy's Folder
+  artifactKey: Guid(c5b3585e4a0ed4668950a695a6d6fd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billy's Folder using Guid(c5b3585e4a0ed4668950a695a6d6fd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41900f1eee1a4beab2103e1aa0d1ddb5') in 0.001324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.695750 seconds.
+  path: Assets/Elissa's Folder
+  artifactKey: Guid(43c2b479596964a0989c83a5cc5987c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elissa's Folder using Guid(43c2b479596964a0989c83a5cc5987c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cbcad0c8de1c31311e7cbaaf7b756d') in 0.001538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.677255 seconds.
+  path: Assets/Jenn's Folder
+  artifactKey: Guid(ddcdb82666f4b43e99cae4a2b4b84aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jenn's Folder using Guid(ddcdb82666f4b43e99cae4a2b4b84aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b4ef980a254cea504d52107c5e470f') in 0.001554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.719206 seconds.
+  path: Assets/Common Folder
+  artifactKey: Guid(9347bc4fd3b6d4748b7573995c0a4e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common Folder using Guid(9347bc4fd3b6d4748b7573995c0a4e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b4fddbb88fcca8410cb410dd8751b9') in 0.002158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.340490 seconds.
+  path: Assets/Common Folder/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common Folder/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.001767 seconds 
